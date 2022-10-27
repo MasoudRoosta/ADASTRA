@@ -163,8 +163,16 @@
 		30D7329C290A740D0050ED68 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				30D7329D290A78590050ED68 /* Networking */,
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		30D7329D290A78590050ED68 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Networking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
