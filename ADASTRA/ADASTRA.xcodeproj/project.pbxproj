@@ -14,6 +14,7 @@
 		30D73280290A5E260050ED68 /* ADASTRATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D7327F290A5E260050ED68 /* ADASTRATests.swift */; };
 		30D7328A290A5E260050ED68 /* ADASTRAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D73289290A5E260050ED68 /* ADASTRAUITests.swift */; };
 		30D7328C290A5E260050ED68 /* ADASTRAUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D7328B290A5E260050ED68 /* ADASTRAUITestsLaunchTests.swift */; };
+		30D7329F290A78CF0050ED68 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D7329E290A78CF0050ED68 /* Networking.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		30D73285290A5E260050ED68 /* ADASTRAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ADASTRAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		30D73289290A5E260050ED68 /* ADASTRAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADASTRAUITests.swift; sourceTree = "<group>"; };
 		30D7328B290A5E260050ED68 /* ADASTRAUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADASTRAUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		30D7329E290A78CF0050ED68 /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +173,7 @@
 		30D7329D290A78590050ED68 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
+				30D7329E290A78CF0050ED68 /* Networking.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -305,6 +308,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30D7329F290A78CF0050ED68 /* Networking.swift in Sources */,
 				30D73271290A5E220050ED68 /* ContentView.swift in Sources */,
 				30D7326F290A5E220050ED68 /* ADASTRAApp.swift in Sources */,
 			);
