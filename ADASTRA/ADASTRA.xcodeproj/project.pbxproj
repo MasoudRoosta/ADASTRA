@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30D7326F290A5E220050ED68 /* ADASTRAApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D7326E290A5E220050ED68 /* ADASTRAApp.swift */; };
+		30D73271290A5E220050ED68 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D73270290A5E220050ED68 /* ContentView.swift */; };
+		30D73273290A5E260050ED68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30D73272290A5E260050ED68 /* Assets.xcassets */; };
+		30D73276290A5E260050ED68 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30D73275290A5E260050ED68 /* Preview Assets.xcassets */; };
+		30D73280290A5E260050ED68 /* ADASTRATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D7327F290A5E260050ED68 /* ADASTRATests.swift */; };
+		30D7328A290A5E260050ED68 /* ADASTRAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D73289290A5E260050ED68 /* ADASTRAUITests.swift */; };
+		30D7328C290A5E260050ED68 /* ADASTRAUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D7328B290A5E260050ED68 /* ADASTRAUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		30D7327C290A5E260050ED68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30D73263290A5E220050ED68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30D7326A290A5E220050ED68;
+			remoteInfo = ADASTRA;
+		};
+		30D73286290A5E260050ED68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30D73263290A5E220050ED68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30D7326A290A5E220050ED68;
+			remoteInfo = ADASTRA;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		30D7326B290A5E220050ED68 /* ADASTRA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ADASTRA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30D7326E290A5E220050ED68 /* ADASTRAApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADASTRAApp.swift; sourceTree = "<group>"; };
+		30D73270290A5E220050ED68 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		30D73272290A5E260050ED68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30D73275290A5E260050ED68 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		30D7327B290A5E260050ED68 /* ADASTRATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ADASTRATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30D7327F290A5E260050ED68 /* ADASTRATests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADASTRATests.swift; sourceTree = "<group>"; };
+		30D73285290A5E260050ED68 /* ADASTRAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ADASTRAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30D73289290A5E260050ED68 /* ADASTRAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADASTRAUITests.swift; sourceTree = "<group>"; };
+		30D7328B290A5E260050ED68 /* ADASTRAUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADASTRAUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30D73268290A5E220050ED68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30D73278290A5E260050ED68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30D73282290A5E260050ED68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30D73262290A5E220050ED68 = {
+			isa = PBXGroup;
+			children = (
+				30D7326D290A5E220050ED68 /* ADASTRA */,
+				30D7327E290A5E260050ED68 /* ADASTRATests */,
+				30D73288290A5E260050ED68 /* ADASTRAUITests */,
+				30D7326C290A5E220050ED68 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		30D7326C290A5E220050ED68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30D7326B290A5E220050ED68 /* ADASTRA.app */,
+				30D7327B290A5E260050ED68 /* ADASTRATests.xctest */,
+				30D73285290A5E260050ED68 /* ADASTRAUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30D7326D290A5E220050ED68 /* ADASTRA */ = {
+			isa = PBXGroup;
+			children = (
+				30D7326E290A5E220050ED68 /* ADASTRAApp.swift */,
+				30D73270290A5E220050ED68 /* ContentView.swift */,
+				30D73272290A5E260050ED68 /* Assets.xcassets */,
+				30D73274290A5E260050ED68 /* Preview Content */,
+			);
+			path = ADASTRA;
+			sourceTree = "<group>";
+		};
+		30D73274290A5E260050ED68 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				30D73275290A5E260050ED68 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		30D7327E290A5E260050ED68 /* ADASTRATests */ = {
+			isa = PBXGroup;
+			children = (
+				30D7327F290A5E260050ED68 /* ADASTRATests.swift */,
+			);
+			path = ADASTRATests;
+			sourceTree = "<group>";
+		};
+		30D73288290A5E260050ED68 /* ADASTRAUITests */ = {
+			isa = PBXGroup;
+			children = (
+				30D73289290A5E260050ED68 /* ADASTRAUITests.swift */,
+				30D7328B290A5E260050ED68 /* ADASTRAUITestsLaunchTests.swift */,
+			);
+			path = ADASTRAUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30D7326A290A5E220050ED68 /* ADASTRA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30D7328F290A5E260050ED68 /* Build configuration list for PBXNativeTarget "ADASTRA" */;
+			buildPhases = (
+				30D73267290A5E220050ED68 /* Sources */,
+				30D73268290A5E220050ED68 /* Frameworks */,
+				30D73269290A5E220050ED68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ADASTRA;
+			productName = ADASTRA;
+			productReference = 30D7326B290A5E220050ED68 /* ADASTRA.app */;
+			productType = "com.apple.product-type.application";
+		};
+		30D7327A290A5E260050ED68 /* ADASTRATests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30D73292290A5E260050ED68 /* Build configuration list for PBXNativeTarget "ADASTRATests" */;
+			buildPhases = (
+				30D73277290A5E260050ED68 /* Sources */,
+				30D73278290A5E260050ED68 /* Frameworks */,
+				30D73279290A5E260050ED68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30D7327D290A5E260050ED68 /* PBXTargetDependency */,
+			);
+			name = ADASTRATests;
+			productName = ADASTRATests;
+			productReference = 30D7327B290A5E260050ED68 /* ADASTRATests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		30D73284290A5E260050ED68 /* ADASTRAUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30D73295290A5E260050ED68 /* Build configuration list for PBXNativeTarget "ADASTRAUITests" */;
+			buildPhases = (
+				30D73281290A5E260050ED68 /* Sources */,
+				30D73282290A5E260050ED68 /* Frameworks */,
+				30D73283290A5E260050ED68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30D73287290A5E260050ED68 /* PBXTargetDependency */,
+			);
+			name = ADASTRAUITests;
+			productName = ADASTRAUITests;
+			productReference = 30D73285290A5E260050ED68 /* ADASTRAUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30D73263290A5E220050ED68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					30D7326A290A5E220050ED68 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					30D7327A290A5E260050ED68 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 30D7326A290A5E220050ED68;
+					};
+					30D73284290A5E260050ED68 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 30D7326A290A5E220050ED68;
+					};
+				};
+			};
+			buildConfigurationList = 30D73266290A5E220050ED68 /* Build configuration list for PBXProject "ADASTRA" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 30D73262290A5E220050ED68;
+			productRefGroup = 30D7326C290A5E220050ED68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30D7326A290A5E220050ED68 /* ADASTRA */,
+				30D7327A290A5E260050ED68 /* ADASTRATests */,
+				30D73284290A5E260050ED68 /* ADASTRAUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30D73269290A5E220050ED68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30D73276290A5E260050ED68 /* Preview Assets.xcassets in Resources */,
+				30D73273290A5E260050ED68 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30D73279290A5E260050ED68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30D73283290A5E260050ED68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30D73267290A5E220050ED68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30D73271290A5E220050ED68 /* ContentView.swift in Sources */,
+				30D7326F290A5E220050ED68 /* ADASTRAApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30D73277290A5E260050ED68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30D73280290A5E260050ED68 /* ADASTRATests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30D73281290A5E260050ED68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30D7328A290A5E260050ED68 /* ADASTRAUITests.swift in Sources */,
+				30D7328C290A5E260050ED68 /* ADASTRAUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		30D7327D290A5E260050ED68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30D7326A290A5E220050ED68 /* ADASTRA */;
+			targetProxy = 30D7327C290A5E260050ED68 /* PBXContainerItemProxy */;
+		};
+		30D73287290A5E260050ED68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30D7326A290A5E220050ED68 /* ADASTRA */;
+			targetProxy = 30D73286290A5E260050ED68 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		30D7328D290A5E260050ED68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		30D7328E290A5E260050ED68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		30D73290290A5E260050ED68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ADASTRA/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = masoud.ADASTRA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		30D73291290A5E260050ED68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ADASTRA/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = masoud.ADASTRA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		30D73293290A5E260050ED68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = masoud.ADASTRATests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ADASTRA.app/ADASTRA";
+			};
+			name = Debug;
+		};
+		30D73294290A5E260050ED68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = masoud.ADASTRATests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ADASTRA.app/ADASTRA";
+			};
+			name = Release;
+		};
+		30D73296290A5E260050ED68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = masoud.ADASTRAUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ADASTRA;
+			};
+			name = Debug;
+		};
+		30D73297290A5E260050ED68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = masoud.ADASTRAUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ADASTRA;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30D73266290A5E220050ED68 /* Build configuration list for PBXProject "ADASTRA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30D7328D290A5E260050ED68 /* Debug */,
+				30D7328E290A5E260050ED68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30D7328F290A5E260050ED68 /* Build configuration list for PBXNativeTarget "ADASTRA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30D73290290A5E260050ED68 /* Debug */,
+				30D73291290A5E260050ED68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30D73292290A5E260050ED68 /* Build configuration list for PBXNativeTarget "ADASTRATests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30D73293290A5E260050ED68 /* Debug */,
+				30D73294290A5E260050ED68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30D73295290A5E260050ED68 /* Build configuration list for PBXNativeTarget "ADASTRAUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30D73296290A5E260050ED68 /* Debug */,
+				30D73297290A5E260050ED68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30D73263290A5E220050ED68 /* Project object */;
+}
