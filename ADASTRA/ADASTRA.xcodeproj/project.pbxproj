@@ -15,6 +15,7 @@
 		30D7328A290A5E260050ED68 /* ADASTRAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D73289290A5E260050ED68 /* ADASTRAUITests.swift */; };
 		30D7328C290A5E260050ED68 /* ADASTRAUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D7328B290A5E260050ED68 /* ADASTRAUITestsLaunchTests.swift */; };
 		30D7329F290A78CF0050ED68 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D7329E290A78CF0050ED68 /* Networking.swift */; };
+		30D732A1290A87100050ED68 /* NetworkingErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D732A0290A87100050ED68 /* NetworkingErrorHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		30D73289290A5E260050ED68 /* ADASTRAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADASTRAUITests.swift; sourceTree = "<group>"; };
 		30D7328B290A5E260050ED68 /* ADASTRAUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADASTRAUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		30D7329E290A78CF0050ED68 /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		30D732A0290A87100050ED68 /* NetworkingErrorHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingErrorHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +176,7 @@
 			isa = PBXGroup;
 			children = (
 				30D7329E290A78CF0050ED68 /* Networking.swift */,
+				30D732A0290A87100050ED68 /* NetworkingErrorHandler.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -311,6 +314,7 @@
 				30D7329F290A78CF0050ED68 /* Networking.swift in Sources */,
 				30D73271290A5E220050ED68 /* ContentView.swift in Sources */,
 				30D7326F290A5E220050ED68 /* ADASTRAApp.swift in Sources */,
+				30D732A1290A87100050ED68 /* NetworkingErrorHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
