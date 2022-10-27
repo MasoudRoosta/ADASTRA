@@ -14,6 +14,10 @@
 		30D73280290A5E260050ED68 /* ADASTRATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D7327F290A5E260050ED68 /* ADASTRATests.swift */; };
 		30D7328A290A5E260050ED68 /* ADASTRAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D73289290A5E260050ED68 /* ADASTRAUITests.swift */; };
 		30D7328C290A5E260050ED68 /* ADASTRAUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D7328B290A5E260050ED68 /* ADASTRAUITestsLaunchTests.swift */; };
+		30D7329F290A78CF0050ED68 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D7329E290A78CF0050ED68 /* Networking.swift */; };
+		30D732A1290A87100050ED68 /* NetworkingErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D732A0290A87100050ED68 /* NetworkingErrorHandler.swift */; };
+		30D732A3290A89760050ED68 /* NetworkDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D732A2290A89760050ED68 /* NetworkDispatcher.swift */; };
+		30D732A5290A8AA90050ED68 /* NetworkAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D732A4290A8AA90050ED68 /* NetworkAPIClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		30D73285290A5E260050ED68 /* ADASTRAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ADASTRAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		30D73289290A5E260050ED68 /* ADASTRAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADASTRAUITests.swift; sourceTree = "<group>"; };
 		30D7328B290A5E260050ED68 /* ADASTRAUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADASTRAUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		30D7329E290A78CF0050ED68 /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		30D732A0290A87100050ED68 /* NetworkingErrorHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingErrorHandler.swift; sourceTree = "<group>"; };
+		30D732A2290A89760050ED68 /* NetworkDispatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDispatcher.swift; sourceTree = "<group>"; };
+		30D732A4290A8AA90050ED68 /* NetworkAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkAPIClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +102,11 @@
 		30D7326D290A5E220050ED68 /* ADASTRA */ = {
 			isa = PBXGroup;
 			children = (
+				30D7329C290A740D0050ED68 /* Utilities */,
+				30D7329B290A73FA0050ED68 /* Helper */,
+				30D7329A290A73DC0050ED68 /* ViewModels */,
+				30D73299290A73D40050ED68 /* Models */,
+				30D73298290A73B20050ED68 /* Views */,
 				30D7326E290A5E220050ED68 /* ADASTRAApp.swift */,
 				30D73270290A5E220050ED68 /* ContentView.swift */,
 				30D73272290A5E260050ED68 /* Assets.xcassets */,
@@ -125,6 +138,53 @@
 				30D7328B290A5E260050ED68 /* ADASTRAUITestsLaunchTests.swift */,
 			);
 			path = ADASTRAUITests;
+			sourceTree = "<group>";
+		};
+		30D73298290A73B20050ED68 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		30D73299290A73D40050ED68 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		30D7329A290A73DC0050ED68 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		30D7329B290A73FA0050ED68 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		30D7329C290A740D0050ED68 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				30D7329D290A78590050ED68 /* Networking */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		30D7329D290A78590050ED68 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				30D7329E290A78CF0050ED68 /* Networking.swift */,
+				30D732A0290A87100050ED68 /* NetworkingErrorHandler.swift */,
+				30D732A2290A89760050ED68 /* NetworkDispatcher.swift */,
+				30D732A4290A8AA90050ED68 /* NetworkAPIClient.swift */,
+			);
+			path = Networking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +317,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30D732A5290A8AA90050ED68 /* NetworkAPIClient.swift in Sources */,
+				30D7329F290A78CF0050ED68 /* Networking.swift in Sources */,
 				30D73271290A5E220050ED68 /* ContentView.swift in Sources */,
 				30D7326F290A5E220050ED68 /* ADASTRAApp.swift in Sources */,
+				30D732A3290A89760050ED68 /* NetworkDispatcher.swift in Sources */,
+				30D732A1290A87100050ED68 /* NetworkingErrorHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
