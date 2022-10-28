@@ -18,6 +18,10 @@
 		30D732A1290A87100050ED68 /* NetworkingErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D732A0290A87100050ED68 /* NetworkingErrorHandler.swift */; };
 		30D732A3290A89760050ED68 /* NetworkDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D732A2290A89760050ED68 /* NetworkDispatcher.swift */; };
 		30D732A5290A8AA90050ED68 /* NetworkAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D732A4290A8AA90050ED68 /* NetworkAPIClient.swift */; };
+		30D732A9290A8DAC0050ED68 /* EndPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D732A8290A8DAC0050ED68 /* EndPoints.swift */; };
+		30D732AB290ABA840050ED68 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D732AA290ABA840050ED68 /* Constants.swift */; };
+		30D732AE290ABF670050ED68 /* DogFactDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D732AD290ABF670050ED68 /* DogFactDataModel.swift */; };
+		30D732B0290ABFE30050ED68 /* DogFactRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D732AF290ABFE30050ED68 /* DogFactRequestModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +56,10 @@
 		30D732A0290A87100050ED68 /* NetworkingErrorHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingErrorHandler.swift; sourceTree = "<group>"; };
 		30D732A2290A89760050ED68 /* NetworkDispatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDispatcher.swift; sourceTree = "<group>"; };
 		30D732A4290A8AA90050ED68 /* NetworkAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkAPIClient.swift; sourceTree = "<group>"; };
+		30D732A8290A8DAC0050ED68 /* EndPoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPoints.swift; sourceTree = "<group>"; };
+		30D732AA290ABA840050ED68 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		30D732AD290ABF670050ED68 /* DogFactDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogFactDataModel.swift; sourceTree = "<group>"; };
+		30D732AF290ABFE30050ED68 /* DogFactRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogFactRequestModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +158,7 @@
 		30D73299290A73D40050ED68 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				30D732AC290ABF100050ED68 /* DogFactModels */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -164,6 +173,7 @@
 		30D7329B290A73FA0050ED68 /* Helper */ = {
 			isa = PBXGroup;
 			children = (
+				30D732AA290ABA840050ED68 /* Constants.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -179,12 +189,38 @@
 		30D7329D290A78590050ED68 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
+				30D732A7290A8D490050ED68 /* EndPoints */,
+				30D732A6290A8D2B0050ED68 /* NetworkUnit */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		30D732A6290A8D2B0050ED68 /* NetworkUnit */ = {
+			isa = PBXGroup;
+			children = (
 				30D7329E290A78CF0050ED68 /* Networking.swift */,
 				30D732A0290A87100050ED68 /* NetworkingErrorHandler.swift */,
 				30D732A2290A89760050ED68 /* NetworkDispatcher.swift */,
 				30D732A4290A8AA90050ED68 /* NetworkAPIClient.swift */,
 			);
-			path = Networking;
+			path = NetworkUnit;
+			sourceTree = "<group>";
+		};
+		30D732A7290A8D490050ED68 /* EndPoints */ = {
+			isa = PBXGroup;
+			children = (
+				30D732A8290A8DAC0050ED68 /* EndPoints.swift */,
+			);
+			path = EndPoints;
+			sourceTree = "<group>";
+		};
+		30D732AC290ABF100050ED68 /* DogFactModels */ = {
+			isa = PBXGroup;
+			children = (
+				30D732AD290ABF670050ED68 /* DogFactDataModel.swift */,
+				30D732AF290ABFE30050ED68 /* DogFactRequestModel.swift */,
+			);
+			path = DogFactModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -320,9 +356,13 @@
 				30D732A5290A8AA90050ED68 /* NetworkAPIClient.swift in Sources */,
 				30D7329F290A78CF0050ED68 /* Networking.swift in Sources */,
 				30D73271290A5E220050ED68 /* ContentView.swift in Sources */,
+				30D732A9290A8DAC0050ED68 /* EndPoints.swift in Sources */,
 				30D7326F290A5E220050ED68 /* ADASTRAApp.swift in Sources */,
 				30D732A3290A89760050ED68 /* NetworkDispatcher.swift in Sources */,
 				30D732A1290A87100050ED68 /* NetworkingErrorHandler.swift in Sources */,
+				30D732AB290ABA840050ED68 /* Constants.swift in Sources */,
+				30D732B0290ABFE30050ED68 /* DogFactRequestModel.swift in Sources */,
+				30D732AE290ABF670050ED68 /* DogFactDataModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
